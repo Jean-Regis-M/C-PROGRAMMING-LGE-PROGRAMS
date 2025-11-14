@@ -7,6 +7,7 @@ int main() {
     printf("Bir sayi girin: ");
     scanf("%d", &sayi);
     
+    
     printf("Geri sayim:\n");
     
     for(i = sayi; i >= 0; i--) {
