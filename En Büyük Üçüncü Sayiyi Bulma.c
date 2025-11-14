@@ -4,6 +4,7 @@ int main() {
     int numbers[10];
     int i, j, temp;
     
+    
     printf("10 sayi giriniz:\n");
     
     // 10 sayiyi al
@@ -12,7 +13,8 @@ int main() {
         scanf("%d", &numbers[i]);
     }
     
-    // Sayilari büyükten küçüge sirala (Bubble Sort)
+    
+    // Sayilari bÃ¼yÃ¼kten kÃ¼Ã§Ã¼ge sirala (Bubble Sort)
     for(i = 0; i < 9; i++) {
         for(j = 0; j < 9 - i; j++) {
             if(numbers[j] < numbers[j + 1]) {
@@ -23,7 +25,7 @@ int main() {
         }
     }
     
-    // En büyük üçüncü sayiyi bul (tekrarlari atlayarak)
+    // En bÃ¼yÃ¼k Ã¼Ã§Ã¼ncÃ¼ sayiyi bul (tekrarlari atlayarak)
     int thirdLargest = numbers[0];
     int count = 1;
     
@@ -37,7 +39,7 @@ int main() {
         }
     }
     
-    printf("En büyük üçüncü sayi: %d\n", thirdLargest);
+    printf("En bÃ¼yÃ¼k Ã¼Ã§Ã¼ncÃ¼ sayi: %d\n", thirdLargest);
     
     return 0;
 }
