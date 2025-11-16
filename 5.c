@@ -1,25 +1,13 @@
 #include<stdio.h>
-void br(void);
-void ic(void);
 int main(void)
 {
-    br();
-    printf(",");
-    ic();
-    printf("\n");
-    ic();
-    printf("\n");
-    br();
-    printf("\n");
+    int age;
+    double seconds;
     
-    return 0;
-}
+    printf("please input your age: ");
+    scanf("%d",&age);
+    seconds=age*3.156e7;
+    printf("the corresponding seconds are: %e\n",seconds);
 
-void br(void)
-{
-    printf("Brazil,Russia");
-}
-void ic(void)
-{
-    printf("India,China");
+    return 0;
 }
