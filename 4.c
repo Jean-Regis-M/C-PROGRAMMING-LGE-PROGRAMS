@@ -1,20 +1,10 @@
 #include<stdio.h>
-void jolly(void);
-void deny(void);
-
 int main(void)
 {
-    jolly();
-    jolly();
-    deny();
+    float a;
+    printf("Enter a floating-point value: ");
+    scanf("%f",&a);
+    printf("fixed-point notation: %f\n",a);
+    printf("exponential notation: %e\n",a);
     return 0;
-}
-
-void jolly(void)
-{
-    printf("For he's a jolly good fellow!\n");
-}
-void deny(void)
-{
-    printf("Which nobody can deny!\n");
 }
