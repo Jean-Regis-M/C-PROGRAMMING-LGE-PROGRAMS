@@ -2,7 +2,7 @@
 void Temperatures(double fah);
 int main(void)
 {
-    double fah,cel,kel;//华氏温度，摄氏温度，开氏温度
+    double fah,cel,kel;
     printf("Input the Fahrenheit temperature: ");
     while(scanf("%lf",&fah)==1)
     {
