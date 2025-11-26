@@ -9,7 +9,7 @@ int main(void)
     printf("Input your name: ");
     scanf("%s",name);
     width=strlen(name)+3;
-    printf("%*s\n",width,name); //输入的名和姓中间不能分隔
+    printf("%*s\n",width,name); 
     
     return 0;
 }
