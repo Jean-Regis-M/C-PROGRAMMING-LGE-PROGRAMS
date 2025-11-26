@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define DAYS_PER_WEEK 7 //一周7天
+#define DAYS_PER_WEEK 7 
 int main(void)
 {
     int day,week,left;
