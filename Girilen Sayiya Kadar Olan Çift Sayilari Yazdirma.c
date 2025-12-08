@@ -5,9 +5,10 @@ int main() {
     int i; 
     
     printf("Bir sayi girin: ");
+    
     scanf("%d", &sayi);
     
-    printf("0'dan %d'ye kadar olan çift sayilar:\n", sayi);
+    printf("0'dan %d'ye kadar olan Ã§ift sayilar:\n", sayi);
     for(i = 0; i <= sayi; i++) {
         if(i % 2 == 0) {
             printf("%d\n", i);
